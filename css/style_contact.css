@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7eac8; /* Fond crème */
+    color: #333;
+}
+
+/* Formulaire */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #314c26; /* Vert foncé */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    padding: 12px 20px;
+    background-color: #708238; /* Vert olive */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn:hover {
+    background-color: #4d602b; /* Vert plus foncé */
+}
+
+
+footer {
+    background-color: #314c26;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .form-wrapper {
+        width: 90%;
+    }
+}
+

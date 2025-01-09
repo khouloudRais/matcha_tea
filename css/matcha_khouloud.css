@@ -8,7 +8,8 @@ body {
 
 
 header {
-    background-image: src('images/matcha_couverture');
+ 
+ 
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -54,7 +55,7 @@ nav ul li a:hover {
 
 /* Section Hero */
 .hero {
-    background-image: url('images/matcha_couverture.jpg');
+    background-image: url('../photos/matcha_couverture.jpg');
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -208,7 +209,6 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #4d602b; /* Vert plus foncé au survol */
 }
 
-/* Responsive design pour les petits écrans */
 
 
 
@@ -235,6 +235,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
+
+
 
 
 
@@ -291,6 +296,7 @@ footer {
     .produits {
         padding: 20px 10px;
         display: block; /* Passer en mode bloc pour les petits écrans */
+        
     }
 
     .produit {
