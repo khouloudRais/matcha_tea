@@ -1,4 +1,3 @@
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,21 +8,20 @@ body {
 
 header {
  
- 
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 .logo img {
-    width: 120px; /* Ajuste la taille du logo (vous pouvez modifier selon vos préférences) */
-    height: auto; /* Maintient les proportions de l'image */
-    border-radius: 8px; /* Optionnel : pour arrondir légèrement les bords du logo */
+    width: 120px; 
+    height: auto;
+    border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     
 }
 
 .logo {
-       text-align: center; /* Centre le logo dans son conteneur */
+       text-align: center; 
     padding: 30px;
 }
 header h1 {
@@ -53,18 +51,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Section Hero */
+
 .hero {
     background-image: url('../photos/matcha_couverture.jpg');
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     height: 200px;
-  
-    background-size: cover; /* Couvre toute la zone */
-    background-position: center; /* Centrer l'image */
-    background-repeat: no-repeat; /* Empêche la répétition de l'image */
-    background-attachment: fixed; /* Rendre l'image fixe pendant le défilement */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-color: transparent;
    
 color:wheat;
@@ -72,11 +69,6 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     padding: 50px 0;
 }
-
-
-
-
-
 
 
 .hero h1 {
@@ -87,60 +79,10 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.2em;
 }
 
-/* Section Produits 
-.produits {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-}
-
-.produit {
-    background: white;
-    padding: 20px;
-    width: 30%;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.produit img {
-    width: 100%;
-    height: auto;
-}
-
-.produit h3 {
-    margin-top: 15px;
-    color: #333;
-}
-
-.produit p {
-    font-size: 1em;
-    color: #777;
-}
-
-.produit a {
-    display: inline-block;
-    margin-top: 10px;
-    color: #085c37;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.produit a:hover {
-    text-decoration: underline;
-}
-
-*/
-
-
-
-
-
-
-
 /* Style général pour la section produits */
 .produits {
-    padding: 50px 20px; /* Espace autour de la section */
-    background-color: #f4f4f4; /* Fond léger pour séparer la section */
+    padding: 50px 20px; 
+    background-color: #f4f4f4; 
     text-align: center;
  
         display: flex;
@@ -150,7 +92,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 .produits h2 {
     font-size: 2.5rem;
-    color: #708238; /* Vert olive pour l'harmonie avec le thème */
+    color: #708238; 
     margin-bottom: 30px;
 }
 
@@ -158,37 +100,36 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .produit {
     display: inline-block;
     width: 30%;
-    margin: 15px; /* Espacement entre les produits */
+    margin: 15px;
     background-color: #fff;
     padding: 20px;
-    border-radius: 8px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce autour des produits */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Effet de transition */
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .produit:hover {
-    transform: translateY(-10px); /* Légère élévation au survol */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Ombre renforcée au survol */
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
 }
 
-/* Image des produits */
+
 .produit img {
     width: 100%;
     height: auto;
-    border-radius: 8px; /* Coins arrondis sur les images */
-}
+    border-radius: 8px; }
 
-/* Titres des produits */
+
 .produit h3 {
     font-size: 1.8rem;
-    color: #333; /* Couleur sombre pour le titre */
+    color: #333; 
     margin: 15px 0;
 }
 
 /* Description des produits */
 .produit p {
     font-size: 1rem;
-    color: #666; /* Gris doux pour le texte */
+    color: #666; 
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -197,7 +138,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .produit a {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #708238; /* Vert olive */
+    background-color: #708238; 
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -206,26 +147,69 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .produit a:hover {
-    background-color: #4d602b; /* Vert plus foncé au survol */
+    background-color: #4d602b; 
+}
+
+
+/* style de page contact */
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+   
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    padding: 12px 20px;
+    background-color: #708238;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button.btn:hover {
+    background-color: #4d602b; 
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Footer */
 footer {
     background-color: #314c26;
     color: white;
@@ -255,33 +239,33 @@ footer {
 
 
 
-/* Mobile-first approach */
+/* Mobile */
 @media (max-width: 768px) {
-    /* Section Header */
+   
     header {
         padding: 10px;
         text-align: center;
     }
     
     .logo img {
-        width: 100px; /* Taille réduite du logo pour les petits écrans */
+        width: 100px; 
     }
 
     /* Navigation */
     nav ul {
-        flex-direction: column; /* Placer les éléments du menu verticalement */
-        align-items: center; /* Centrer les éléments */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     nav ul li {
         margin: 10px 0;
     }
 
-    /* Section Hero */
+   
     .hero {
         padding: 30px 10px;
         background-size: cover;
-        height: 150px; /* Réduire la hauteur de la section Hero sur mobile */
+        height: 150px; 
     }
 
     .hero h1 {
@@ -292,20 +276,20 @@ footer {
         font-size: 1.1em;
     }
 
-    /* Section Produits */
+   
     .produits {
         padding: 20px 10px;
-        display: block; /* Passer en mode bloc pour les petits écrans */
+        display: block; 
         
     }
 
     .produit {
-        width: 100%; /* Chaque produit occupe toute la largeur disponible */
-        margin: 10px 0; /* Espacement vertical entre les produits */
+        width: 100%; 
+        margin: 10px 0; 
     }
 
     .produit img {
-        width: 100%; /* Assurez-vous que l'image s'ajuste à la largeur du conteneur */
+        width: 100%;
     }
 
     .produit h3 {
@@ -313,18 +297,18 @@ footer {
     }
 
     .produit p {
-        font-size: 0.9rem; /* Réduire la taille de la description */
+        font-size: 0.9rem;
     }
 
     .produit a {
-        font-size: 0.9rem; /* Réduire la taille du bouton */
+        font-size: 0.9rem; 
         padding: 8px 15px;
     }
 }
 
 /* Tablettes (plus grand que 768px) */
 @media (max-width: 1024px) {
-    /* Section Hero */
+  
     .hero {
         padding: 40px 20px;
         height: 180px;
@@ -338,15 +322,15 @@ footer {
         font-size: 1.2em;
     }
 
-    /* Section Produits */
+   
     .produits {
         display: flex;
-        flex-wrap: wrap; /* Permet d'avoir plusieurs produits sur une ligne avec un retour à la ligne quand nécessaire */
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
     .produit {
-        width: 45%; /* Ajuste la taille des produits sur les écrans moyens */
+        width: 45%; 
         margin: 10px 0;
     }
 
@@ -369,13 +353,13 @@ footer {
 
 /* Plus grand que 1024px (pour bureau ou grand écran) */
 @media (min-width: 1025px) {
-    /* Utilisation du style par défaut */
+   
     .produits {
         display: flex;
         justify-content: space-around;
     }
 
     .produit {
-        width: 30%; /* Trois produits côte à côte sur les grands écrans */
+        width: 30%; 
     }
 }
