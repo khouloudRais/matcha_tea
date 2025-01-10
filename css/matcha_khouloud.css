@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eac8;
+}
+
+
+header {
+ 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img {
+    width: 120px; 
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+
+.logo {
+       text-align: center; 
+    padding: 30px;
+}
+header h1 {
+    margin: 0;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(42, 61, 25);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    background-image: url('../photos/matcha_couverture.jpg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: transparent;
+   
+color:wheat;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.hero h1 {
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+/* Style général pour la section produits */
+.produits {
+    padding: 50px 20px; 
+    background-color: #f4f4f4; 
+    text-align: center;
+ 
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+}
+
+.produits h2 {
+    font-size: 2.5rem;
+    color: #708238; 
+    margin-bottom: 30px;
+}
+
+/* Style pour chaque produit */
+.produit {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.produit:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; }
+
+
+.produit h3 {
+    font-size: 1.8rem;
+    color: #333; 
+    margin: 15px 0;
+}
+
+/* Description des produits */
+.produit p {
+    font-size: 1rem;
+    color: #666; 
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style pour le lien "En savoir plus" */
+.produit a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #708238; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.produit a:hover {
+    background-color: #4d602b; 
+}
+
+
+/* style de page contact */
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+   
+}
+
+.form-wrapper {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button.btn {
+    padding: 12px 20px;
+    background-color: #708238;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button.btn:hover {
+    background-color: #4d602b; 
+}
+
+
+
+
+footer {
+    background-color: #314c26;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+   
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .logo img {
+        width: 100px; 
+    }
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+   
+    .hero {
+        padding: 30px 10px;
+        background-size: cover;
+        height: 150px; 
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 1.1em;
+    }
+
+   
+    .produits {
+        padding: 20px 10px;
+        display: block; 
+        
+    }
+
+    .produit {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .produit img {
+        width: 100%;
+    }
+
+    .produit h3 {
+        font-size: 1.5rem;
+    }
+
+    .produit p {
+        font-size: 0.9rem;
+    }
+
+    .produit a {
+        font-size: 0.9rem; 
+        padding: 8px 15px;
+    }
+}
+
+/* Tablettes (plus grand que 768px) */
+@media (max-width: 1024px) {
+  
+    .hero {
+        padding: 40px 20px;
+        height: 180px;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+   
+    .produits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .produit {
+        width: 45%; 
+        margin: 10px 0;
+    }
+
+    .produit img {
+        width: 100%;
+    }
+
+    .produit h3 {
+        font-size: 1.6rem;
+    }
+
+    .produit p {
+        font-size: 1rem;
+    }
+
+    .produit a {
+        padding: 10px 20px;
+    }
+}
+
+/* Plus grand que 1024px (pour bureau ou grand écran) */
+@media (min-width: 1025px) {
+   
+    .produits {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .produit {
+        width: 30%; 
+    }
+}
