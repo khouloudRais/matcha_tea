@@ -1,0 +1,189 @@
+.back_ground{
+    background-color: #f7eac8;
+}
+
+.titre_principale{
+    color: rgb(42, 61, 25) ;
+    text-align:left;
+    font-size:xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline  rgb(42, 61, 25);
+    margin: 4%;
+}
+
+.photo_dequipe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+ 
+  }
+ 
+  .photo_dequipe img{
+    width: 400px;
+     height: 300px;
+     overflow: hidden;
+     object-fit:contain;
+  }
+
+  .sous_titre {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size:medium;
+    margin: 0%;
+    color: rgb(120, 78, 10);
+    text-decoration: underline;  
+    padding: 50px 15px 20px 20px; /* haut, droite, bas, gauche */
+
+ 
+  }
+  .les_bloques{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+.cadre_depage{
+    border: 2px solid #bf6f36 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px
+ 
+   
+ }
+
+
+.display_mosaique img {
+
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    padding: 60px 20px 20px 60px; /* haut, droite, bas, gauche */
+   
+ 
+  }
+
+  header {
+    background-image: src('images/matcha_couverture');
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img {
+    width: 120px; /* Ajuste la taille du logo (vous pouvez modifier selon vos préférences) */
+    height: auto; /* Maintient les proportions de l'image */
+    border-radius: 8px; /* Optionnel : pour arrondir légèrement les bords du logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre discrète autour du logo */
+}
+
+.logo {
+       text-align: center; /* Centre le logo dans son conteneur */
+    padding: 30px;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(42, 61, 25);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #314c26;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .titre_principale {
+        text-align: center;
+        font-size: large;
+        margin: 2%;
+    }
+
+    .photo_dequipe img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cadre_depage {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+   
+}
+
+
+@media (max-width: 480px) {
+    .titre_principale {
+        font-size: medium;
+        margin: 1%;
+    }
+
+    .photo_dequipe img {
+        max-width: 250px;
+    }
+
+    .cadre_depage {
+        padding: 10px;
+    }
+
+    .sous_titre {
+        font-size: small;
+        padding: 20px 10px;
+    }
+
+    .logo img {
+        width: 80px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .display_mosaique img {
+
+        width: 200px;
+        height: 100px;
+        justify-content: center;
+    }
+}
