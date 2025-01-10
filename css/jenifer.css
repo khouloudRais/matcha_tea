@@ -90,6 +90,7 @@ nav ul li a:hover {
 body {
     margin-top: 70px; /* Ajouter de l'espace pour ne pas que le contenu soit caché sous la barre de navigation */
     font-family: Arial, sans-serif;
+    background-color: #f7eac8;
 }
 
 .contact-form {
