@@ -1,0 +1,149 @@
+p{
+    border: 2px solid #bf6f36 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    background-image: url(matcha-tea_IMG/);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    background-image: src('images/matcha_couverture');
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img {
+    width: 120px; /* Ajuste la taille du logo (vous pouvez modifier selon vos préférences) */
+    height: auto; /* Maintient les proportions de l'image */
+    border-radius: 8px; /* Optionnel : pour arrondir légèrement les bords du logo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre discrète autour du logo */
+}
+
+.logo {
+       text-align: center; /* Centre le logo dans son conteneur */
+    padding: 30px;
+}
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(42, 61, 25);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Style de la barre de navigation */
+.navbar {
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Marges pour le formulaire de contact */
+body {
+    margin-top: 70px; /* Ajouter de l'espace pour ne pas que le contenu soit caché sous la barre de navigation */
+    font-family: Arial, sans-serif;
+}
+
+.contact-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form form div {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color:#314c26;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color:olive;
+}
+
+
+/* Footer */
+footer {
+    background-color:#314c26;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
